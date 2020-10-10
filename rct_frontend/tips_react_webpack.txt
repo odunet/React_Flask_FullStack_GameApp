@@ -1,0 +1,17 @@
+Webpack
+Install Webpack: npm install --save-dev webpack-cli
+Another tip of webpack is to keep it automatically building bundle files anytime changes are observed.
+
+Install react: npm i react react-dom --save-dev
+
+Install babel: npm install --save-dev @babel/core
+             npm install --save-dev babel-loader
+             npm install --save-dev @babel/preset-react
+             npm install --save-dev @babel/preset-env
+             npm install --save-dev css-loader
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react"
+      ]      
+    ]

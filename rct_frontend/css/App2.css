@@ -1,0 +1,53 @@
+#root {
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: Consolas, monaco, monospace; 
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+
+.Test h1 {
+  padding-top: 1em;
+}
+
+.footer{
+  padding-top: 0.5em;
+  border-color: chocolate;
+  border-style: inset;
+  background-color: rgb(228, 224, 222);
+}
+
+.li_footer{
+  padding-bottom: 3em;
+}
+
+#root_snake {
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: Consolas, monaco, monospace; 
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.container {
+    padding: 40px;
+    background: rgb(44, 126, 122)
+  }
+  
+.slick-slide img {
+    margin: auto;
+  }
+  
+  @media only screen and (max-width: 940px) {
+    #root_snake {
+      font-size: 1em;
+      font-weight: normal;
+      font-family: Consolas, monaco, monospace; 
+      width: 100%;
+      color: black;
+      text-align: center;
+    }
+
+  }
