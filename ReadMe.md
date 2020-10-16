@@ -3,8 +3,9 @@
 ![Game1](/img_readme/snake_rm.gif)
 ![Game1](/img_readme/tictac_rm.gif)
 
-This web app has host a number of games served at using a Flask back end. The games are written in JS using frameworks/Libraries such as ReackJS and P5js.
-**Server**
+This web app has host a number of games served using a **Flask** back end. The games are written in JS using frameworks/Libraries such as **ReackJS** and **P5js**.
+
+### Server
   - The server is written in Python using the Flask frame work 
   - The server can be fired up in two ways:
 ```sh
@@ -16,7 +17,7 @@ python3 manager.py
 gunicorn3 app:app
 ```
 
-**Client**
+### Client
   - The client side has html templates for each route. Each html template has it's JS bundle file. 
   - The React code is written in JSX and "transpiled" using Babel and WebPack to create the respective bundle.js
 
