@@ -6,7 +6,8 @@ const config = {
     entry: {
         index: __dirname + '/js/index.jsx',
         index2: __dirname + '/js/index2.jsx',
-        index3: __dirname + '/js/index3.jsx'},
+        index3: __dirname + '/js/index3.jsx',
+        index4: __dirname + '/js/index4.jsx'},
 
     output: {
         path: __dirname + '/dist',

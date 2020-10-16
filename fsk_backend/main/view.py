@@ -25,3 +25,7 @@ def snake():
 @app.route('/tictac')
 def tictac():
     return render_template ("template_tictac.html", msg='to Tic Tac Toe')
+
+@app.route('/twoDGame')
+def twoDGame():
+    return render_template ("template_2dGame.html", msg='to 2D Game')
