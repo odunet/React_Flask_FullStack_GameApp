@@ -1,9 +1,9 @@
+# FullStack Web Game
+
 ![Game1](/img_readme/snake_rm.gif)
 ![Game1](/img_readme/tictac_rm.gif)
 
-# FullStack Web Game
-This web has host a number of games served at using a Flask back end. The games are written in JS using frameworks/Libraries such as ReackJS and P5js.
-
+This web app has host a number of games served at using a Flask back end. The games are written in JS using frameworks/Libraries such as ReackJS and P5js.
 **Server**
   - The server is written in Python using the Flask frame work 
   - The server can be fired up in two ways:
@@ -13,7 +13,7 @@ python3 manager.py
 ```
 ```sh
 #Gunicorn production server
-gunicorn app:app
+gunicorn3 app:app
 ```
 
 **Client**
