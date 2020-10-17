@@ -11,11 +11,14 @@ class ReactSlickDemo extends React.Component {
     return (
       <div className="container">
         <Slider {...settings}>
-          <div>
-            <img src="./dist/images/tictac.PNG" />
+        <div>
+            <img src="./dist/images/twoD.PNG" width='314px' height='281px'/>
           </div>
           <div>
-            <img src="./dist/images/snake.PNG" />
+            <img src="./dist/images/tictac.PNG" width='314px' height='181px'/>
+          </div>
+          <div>
+            <img src="./dist/images/snake.PNG" width='314px' height='281px'/>
           </div>
         </Slider>
       </div>
