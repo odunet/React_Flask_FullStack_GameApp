@@ -31,7 +31,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "react-slick": "^0.27.11",
+    "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1"
   }
 }
